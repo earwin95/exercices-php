@@ -6,3 +6,13 @@
 //   concaténer caractère à une nouvelle chaîne
 // afficher la nouvelle chaîne
 
+
+
+$chaine = "Bonjour bloubiboulga";
+$newchaine ='';
+    for ($i = strlen ($chaine) - 1; $i >= 0; $i--) {
+        $newchaine .= $chaine[$i];
+    }
+echo ($newchaine);
+?>
+

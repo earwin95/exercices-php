@@ -7,3 +7,9 @@
 //     afficher i
 // fin
 
+for ($i = 1; $i <= 20; $i++) {
+    if ($i % 2 == 0) {                // si i est pair
+        echo $i . "<br>";        // affiche le nbre pair
+    }
+}
+?>
